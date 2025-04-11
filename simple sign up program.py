@@ -15,7 +15,7 @@ try:
     accounts[user] = userpass
     print("account successfully created")
 except:
-    print("password must containt one of the following : a-z ,A-Z ,and 0-9")
+    print("account failed to create, please try again")
 print("========please verify your account========")
 userverif = input("please input your username :")
 while userverif == "":
